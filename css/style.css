@@ -178,7 +178,7 @@ footer {
 }
 
 
-@media(min-width:768px) {
+@media(min-width:768px){
     .navbar-default {
         border-color: transparent;
         background-color: #181818;
@@ -256,9 +256,11 @@ header {
 }
 
 .img-header {
-    margin-bottom: -190px;
+    margin-bottom: -125px;
     margin-top: -170px;
-    z-index: 0;
+    max-width: 100%;
+    height: auto;
+
 }
 header .header-content {
     position: relative;
@@ -284,6 +286,7 @@ footer {
     background-color:#111;
 }
 
+
 @media(min-width:768px) {
     .icon-lg {
         font-size: 64px;
@@ -305,7 +308,7 @@ footer {
     header .header-content .inner {
         margin-right: auto;
         margin-left: auto;
-        max-width: 1000px;
+        max-width: 100%;
     }
 
     header .header-content .inner h1 {
